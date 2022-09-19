@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:Helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    display: inline-flex;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration:underline;
+
+
+}
+
+.navbar {
+    width:95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-container {
+    background-image: url("/Users/carternetzley/Code Academy/project 2 (flex)/index.html/resources/images/img-mission-background.webp");
+    height: 700px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.img-container h2{
+    text-align: center;
+}
+.inner-container {
+    display:flex;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+@media(max-width:1280px) {
+.container {
+    width: 1280px;
+    margin: auto;
+    }
+}
